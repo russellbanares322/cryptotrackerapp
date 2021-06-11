@@ -1,0 +1,14 @@
+.img-con {
+  height: 90px;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.srch {
+  border-radius: 20px;
+}
+
+input:focus,
+form {
+  outline: none !important;
+}
