@@ -5,11 +5,11 @@ const Coin = ({image, name, symbol, price, volume, priceChange, marketcap}) => {
     return (
         <div className="container-fluid mr-4">
             <div className="row">
-                <div className="col-lg-12">
-                <div className="card mt-4 shadow p-3 mb-5 bg-body rounded">
+                <div className="col-lg-12 col-sm-12">
+                <div className="card mt-4 shadow-lg p-3 mb-5 bg-body rounded">
                      <div className="card-body">
                     <div className="row">
-                <div className="col-lg-1">
+                <div className="col-lg-1 col-sm-1">
                     <img src={image} alt="bitcoin" className="img-con mt-2 pt-3"/>
                     </div>
                     <div className="col-lg-2 pt-3">

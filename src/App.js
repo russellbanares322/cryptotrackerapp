@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Coin from './Coin';
 import './Bit.css';
+import Logo from './images/russlogo.png';
 
 
 
@@ -27,16 +28,17 @@ function App() {
     ) 
 
   return (
-    <div className="container-fluid">
-      <h1 className="text-center">Crypto Tracker</h1>
+    <div className="container-fluid body">
+      <img src ={Logo}  alt="logo" className="rlg"/>
+      <h1 className="text-center pt-3"><i className="fas fa-coins pr-5 fa-pulse"></i>Crypto Tracker</h1>
       <div className="cn-search">
         <form className="text-center">
-          <input type="text" onChange={ handleChange } className="mb-5 mt-4 col-form-label srch" placeholder="Search Currency
-          "/>
+          <input type="text" onChange={ handleChange } className="mb-5 mt-4 col-form-label srch ml-5" placeholder="Type here to search
+          " /><i className="fas fa-search-dollar pl-2 fa-lg"></i>
         </form>
       </div>
       {filteredCoins.map(coin => {
-          return (
+          return (  
             <Coin key={coin.id} 
             name={coin.name} 
             image={coin.image}

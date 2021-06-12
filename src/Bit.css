@@ -4,11 +4,24 @@
   margin-right: 10px;
 }
 
-.srch {
-  border-radius: 20px;
-}
-
 input:focus,
 form {
   outline: none !important;
+}
+
+.body {
+  background: rgb(154, 143, 7);
+  background: linear-gradient(
+    90deg,
+    rgba(154, 143, 7, 1) 0%,
+    rgba(236, 234, 234, 1) 100%,
+    rgba(28, 31, 29, 1) 100%,
+    rgba(226, 252, 39, 1) 100%,
+    rgba(224, 255, 10, 1) 100%
+  );
+}
+
+.rlg {
+  height: 90px;
+  width: 110px;
 }
