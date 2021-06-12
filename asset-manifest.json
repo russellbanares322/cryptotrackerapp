@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cryptotrackerapp/static/css/main.92b2e44d.chunk.css",
+    "main.js": "/cryptotrackerapp/static/js/main.5c352161.chunk.js",
+    "main.js.map": "/cryptotrackerapp/static/js/main.5c352161.chunk.js.map",
+    "runtime-main.js": "/cryptotrackerapp/static/js/runtime-main.36ae663c.js",
+    "runtime-main.js.map": "/cryptotrackerapp/static/js/runtime-main.36ae663c.js.map",
+    "static/css/2.3cac87da.chunk.css": "/cryptotrackerapp/static/css/2.3cac87da.chunk.css",
+    "static/js/2.2e09253c.chunk.js": "/cryptotrackerapp/static/js/2.2e09253c.chunk.js",
+    "static/js/2.2e09253c.chunk.js.map": "/cryptotrackerapp/static/js/2.2e09253c.chunk.js.map",
+    "index.html": "/cryptotrackerapp/index.html",
+    "static/css/2.3cac87da.chunk.css.map": "/cryptotrackerapp/static/css/2.3cac87da.chunk.css.map",
+    "static/css/main.92b2e44d.chunk.css.map": "/cryptotrackerapp/static/css/main.92b2e44d.chunk.css.map",
+    "static/js/2.2e09253c.chunk.js.LICENSE.txt": "/cryptotrackerapp/static/js/2.2e09253c.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/cryptotrackerapp/static/media/fa-solid-900.eb1e9adc.woff2",
+    "static/media/russlogo.7653d4d3.png": "/cryptotrackerapp/static/media/russlogo.7653d4d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36ae663c.js",
+    "static/css/2.3cac87da.chunk.css",
+    "static/js/2.2e09253c.chunk.js",
+    "static/css/main.92b2e44d.chunk.css",
+    "static/js/main.5c352161.chunk.js"
+  ]
+}
