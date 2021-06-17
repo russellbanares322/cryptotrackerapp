@@ -33,7 +33,7 @@ function App() {
       <h1 className="text-center pt-3"><i className="fas fa-coins pr-5 fa-pulse"></i>Crypto Tracker</h1>
       <div className="cn-search">
         <form className="text-center">
-          <input type="text" onChange={ handleChange } className="mb-5 mt-4 col-form-label srch ml-5" placeholder="Type here to search
+          <input type="text" onChange={handleChange} className="mb-5 mt-4 col-form-label srch" placeholder="Type here to search
           " /><i className="fas fa-search-dollar pl-2 fa-lg"></i>
         </form>
       </div>

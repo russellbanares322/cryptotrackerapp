@@ -25,3 +25,28 @@ form {
   height: 90px;
   width: 110px;
 }
+
+::placeholder {
+  color: rgba(28, 31, 29, 1) 100%;
+}
+
+.pch {
+  padding-left: 80px;
+}
+
+.prc {
+  padding-left: 70px;
+}
+
+.srch {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
+  padding-right: 40px;
+  margin-left: 120px;
+  border-radius: 4px;
+}
+
+.srch:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
