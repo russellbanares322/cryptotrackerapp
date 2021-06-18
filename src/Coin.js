@@ -15,44 +15,44 @@ const Coin = ({image, name, symbol, price, volume, priceChange, marketcap}) => {
                     </div>
 
                     <div className="col-lg-2 pt-3">
-                         <p className="ml-5">Name</p>
+                         <p className="ml-5 name">Name</p>
                         <hr />   
-                        <h4 className="pl-5"><strong>{name}</strong></h4>
+                        <h4 className="name_c"><strong>{name}</strong></h4>
                     </div>
 
                     <div className="col-lg-1 pt-3">
-                        <p>Symbol</p>
+                        <p className="symbol">Symbol</p>
                         <hr /> 
-                        <h5 className="font-italic"><strong>{symbol}</strong></h5>
+                        <h5 className="font-italic symbol_c"><strong>{symbol}</strong></h5>
                     </div>
 
                     <div className="col-lg-2 pt-3">
-                         <p className="prc">Price</p>
+                         <p className="price">Price</p>
                          <hr /> 
-                        <p className="pl-5"><strong>₱{price}</strong></p>
+                        <p className="price_c"><strong>₱{price}</strong></p>
                     </div>
 
                     <div className="col-lg-2 pt-3">
-                        <p className="pl-5">Total Volume</p>
+                        <p className="tvolume">Total Volume</p>
                         <hr /> 
-                        <p className="pl-4"><strong>₱{volume.toLocaleString()}</strong></p>
+                        <p className="tvolume_c"><strong>₱{volume.toLocaleString()}</strong></p>
                     </div>
 
                     <div className="col-lg-2 pt-3">
-                        <p className="pl-5">Price Change</p>
+                        <p className="pchange">Price Change</p>
                         <hr /> 
                         {priceChange < 0 ? (
-                        <p className="text-danger pch"><strong>{priceChange.toFixed(2)}%</strong></p>
+                        <p className="text-danger pchange_c"><strong>{priceChange.toFixed(2)}%</strong></p>
 
-                         ) : (<p className="text-success pch"><strong>{priceChange.toFixed(2)}%</strong></p>
+                         ) : (<p className="text-success pchange_c"><strong>{priceChange.toFixed(2)}%</strong></p>
                     
                          )}
                   </div>
 
                   <div className="col-lg-2 pt-3">
-                         <p className="pl-5">Market Cap</p>
+                         <p className="mcap">Market Cap</p>
                          <hr /> 
-                         <p className="pl-3"><strong>₱{marketcap.toLocaleString()}</strong></p>
+                         <p className="mcap_c"><strong>₱{marketcap.toLocaleString()}</strong></p>
                   </div>
                 </div>       
             </div>
