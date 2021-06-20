@@ -15,7 +15,7 @@ const Coin = ({image, name, symbol, price, volume, priceChange, marketcap}) => {
                     </div>
 
                     <div className="col-lg-2 pt-3">
-                         <p className="ml-5 name">Name</p>
+                         <p className="ml-5 name">Nme</p>
                         <hr />   
                         <h4 className="name_c"><strong>{name}</strong></h4>
                     </div>
