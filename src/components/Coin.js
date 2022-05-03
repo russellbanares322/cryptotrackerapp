@@ -45,7 +45,7 @@ const Coin = ({
                   <p className="price">Price</p>
                   <hr />
                   <p className="price_c">
-                    <strong>₱{price}</strong>
+                    <strong>₱{price.toLocaleString()}</strong>
                   </p>
                 </div>
 
